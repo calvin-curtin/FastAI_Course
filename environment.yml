@@ -1,7 +1,0 @@
-name: fastai
-channels:
-  - fastai
-  - conda-forge
-dependencies:
-  - fastai=2.6.3
-  - voila=0.3.5
