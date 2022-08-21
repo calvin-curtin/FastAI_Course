@@ -1,0 +1,31 @@
+1. What problem does collaborative filtering solve?
+2. How does it solve it?
+3. Why might a collaborative filtering predictive model fail to be a very useful recommendation system?
+4. What does a crosstab representation of collaborative filtering data look like?
+5. Write the code to create a crosstab representation of the MovieLens data (you might need to do some web searching!).
+6. What is a latent factor? Why is it "latent"?
+7. What is a dot product? Calculate a dot product manually using pure Python with lists.
+8. What does `pandas.DataFrame.merge` do?
+9. What is an embedding matrix?
+10. What is the relationship between an embedding and a matrix of one-hot-encoded vectors?
+11. Why do we need `Embedding` if we could use one-hot-encoded vectors for the same thing?
+12. What does an embedding contain before we start training (assuming we're not using a pretained model)?
+13. Create a class (without peeking, if possible!) and use it.
+14. What does `x[:,0]` return?
+15. Rewrite the `DotProduct` class (without peeking, if possible!) and train a model with it.
+16. What is a good loss function to use for MovieLens? Why? 
+17. What would happen if we used cross-entropy loss with MovieLens? How would we need to change the model?
+18. What is the use of bias in a dot product model?
+19. What is another name for weight decay?
+20. Write the equation for weight decay (without peeking!).
+21. Write the equation for the gradient of weight decay. Why does it help reduce weights?
+22. Why does reducing weights lead to better generalization?
+23. What does `argsort` do in PyTorch?
+24. Does sorting the movie biases give the same result as averaging overall movie ratings by movie? Why/why not?
+25. How do you print the names and details of the layers in a model?
+26. What is the "bootstrapping problem" in collaborative filtering?
+27. How could you deal with the bootstrapping problem for new users? For new movies?
+28. How can feedback loops impact collaborative filtering systems?
+29. When using a neural network in collaborative filtering, why can we have different numbers of factors for movies and users?
+30. Why is there an `nn.Sequential` in the `CollabNN` model?
+31. What kind of model should we use if we want to add metadata about users and items, or information such as date and time, to a collaborative filtering model?
